@@ -2,7 +2,7 @@
 
 ``` node index.js ```
 
-## Make sure that your package.json file looks like this:
+## Make sure that your ```package.json``` file looks like this:
 
 ``` {
   "type": "module",
