@@ -1,8 +1,8 @@
-# To run the program
+## To run the program
 
 ``` node index.js ```
 
-# Make sure that your package.json file look like this:
+## Make sure that your package.json file looks like this:
 
 ``` {
   "type": "module",
