@@ -1,5 +1,6 @@
 ## To run the program
 
+``` npm install ```
 ``` node index.js ```
 
 ## Make sure that your ```package.json``` file looks like this:
