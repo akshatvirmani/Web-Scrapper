@@ -3,7 +3,7 @@
 ``` npm install ```
 <br>
 ``` node index.js ```
-<be>
+<br>
 ```npm install -g file-system```
 
 ## Make sure that your ```package.json``` file looks like this:
