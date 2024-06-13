@@ -1,6 +1,6 @@
 ## To run the program
 
-<br>
+
 ``` node index.js ```
 <br>
   
