@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer';
+import fs from 'fs';
 
 const url='https://hackmamba.io/blog/';
 
@@ -18,5 +19,14 @@ return Array.from(articles).slice(0,4).map((section)=>{
 })
 
 console.log(allArticles);
+
+fs.writeFile(`pageData.json`, JSON.stringify(allArticles), (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log(`Data  of  Page Scraped`);
+    }
+  });
+
 }
 main();
