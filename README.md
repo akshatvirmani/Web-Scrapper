@@ -1,9 +1,13 @@
 ## To run the program
 
-``` npm install ```
 <br>
 ``` node index.js ```
 <br>
+  
+``` node pdf.js ```
+<br>
+### For File System Modules
+
 ```npm install -g file-system```
 
 ## Make sure that your ```package.json``` file looks like this:
